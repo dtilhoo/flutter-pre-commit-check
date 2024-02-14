@@ -112,6 +112,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            const SizedBox(
+              height: 20,
+            ),
+            const Text('Does the pre commit work')
           ],
         ),
       ),
